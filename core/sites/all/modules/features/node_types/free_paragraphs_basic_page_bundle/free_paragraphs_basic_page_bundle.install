@@ -1,0 +1,13 @@
+<?php
+/**
+ * @file
+ * Install for free paragraphs basic page bundle.
+ */
+
+function free_paragraphs_basic_page_bundle_install() {
+  // Deleting body field.
+  $instance = field_info_instance('node', 'body', 'page');
+  if (isset($instance)) {
+    field_delete_instance($instance, $field_cleanup = TRUE);
+  }
+}

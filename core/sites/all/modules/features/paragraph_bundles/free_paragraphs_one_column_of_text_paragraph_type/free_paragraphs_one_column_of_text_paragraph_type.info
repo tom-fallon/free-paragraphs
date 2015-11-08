@@ -1,0 +1,10 @@
+name = One Column Of Text Paragraph Type
+core = 7.x
+package = paragraph-bundles
+dependencies[] = features
+dependencies[] = paragraphs
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = field_one_column_body_text
+features[field_instance][] = paragraphs_item-one_column_of_text-field_one_column_body_text
+features[paragraphs][] = one_column_of_text
