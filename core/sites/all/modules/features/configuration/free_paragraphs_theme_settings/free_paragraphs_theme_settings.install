@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * @file
+ * Install file for the free paragraphs theme settings feature.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function free_paragraphs_theme_settings_install() {
+  $theme_list = array('bootstrap', 'bootstrap_free_paragraphs');
+  theme_enable($theme_list);
+}
