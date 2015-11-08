@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Two Column Image on left Text On Right Paragraph Type feature.
+ */
+
+include_once 'two_column_image_on_left_text_on_right_paragraph_type.features.inc';

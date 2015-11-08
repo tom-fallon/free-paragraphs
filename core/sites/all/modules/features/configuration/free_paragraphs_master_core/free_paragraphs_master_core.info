@@ -10,4 +10,5 @@ dependencies[] = free_paragraphs_two_column_of_text_paragraph_type
 dependencies[] = free_paragraphs_ux_improvement_modules
 dependencies[] = paragraphs
 dependencies[] = paragraphs_bundle_permissions
+dependencies[] = two_column_image_on_left_text_on_right_paragraph_type
 features[features_api][] = api:2

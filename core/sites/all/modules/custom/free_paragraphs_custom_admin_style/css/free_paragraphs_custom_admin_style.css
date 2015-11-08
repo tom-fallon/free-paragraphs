@@ -1,10 +1,17 @@
 .field-name-field-left-column-of-text {
-    float:left;
-    width:49%;
     margin-right: 2%;
 }
 
-.field-name-field-right-column-of-text {
+.field-name-field-right-column-of-text, .field-name-field-left-column-of-text {
     float:left;
     width:49%;
+}
+
+.field-name-field-left-image-imgl {
+    margin-right: 2%;
+}
+
+.field-name-field-right-column-of-text-imgl, .field-name-field-left-image-imgl {
+    float:left;
+    width: 49%;
 }

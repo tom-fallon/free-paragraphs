@@ -1,0 +1,17 @@
+name = Two Column Image on left Text On Right Paragraph Type
+core = 7.x
+package = paragraph-bundles
+dependencies[] = ctools
+dependencies[] = ds
+dependencies[] = features
+dependencies[] = image
+dependencies[] = paragraphs
+dependencies[] = text
+features[ctools][] = ds:ds:1
+features[ds_layout_settings][] = paragraphs_item|two_column_image_on_left|default
+features[features_api][] = api:2
+features[field_base][] = field_left_image_imgl
+features[field_base][] = field_right_column_of_text_imgl
+features[field_instance][] = paragraphs_item-two_column_image_on_left-field_left_image_imgl
+features[field_instance][] = paragraphs_item-two_column_image_on_left-field_right_column_of_text_imgl
+features[paragraphs][] = two_column_image_on_left
