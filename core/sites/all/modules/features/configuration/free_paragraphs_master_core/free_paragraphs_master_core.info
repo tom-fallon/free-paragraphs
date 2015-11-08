@@ -3,4 +3,6 @@ description = Modules site needs to have to run
 core = 7.x
 package = Site Settings
 dependencies[] = features
+dependencies[] = paragraphs
+dependencies[] = paragraphs_bundle_permissions
 features[features_api][] = api:2
