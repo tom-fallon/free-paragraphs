@@ -4,6 +4,7 @@ core = 7.x
 package = Site Settings
 dependencies[] = features
 dependencies[] = free_paragraphs_theme_settings
+dependencies[] = free_paragraphs_ux_improvement_modules
 dependencies[] = paragraphs
 dependencies[] = paragraphs_bundle_permissions
 features[features_api][] = api:2
