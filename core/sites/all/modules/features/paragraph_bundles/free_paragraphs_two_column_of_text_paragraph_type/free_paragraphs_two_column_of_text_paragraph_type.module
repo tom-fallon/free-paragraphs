@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Two Column Of Text Paragraph Type feature.
+ */
+
+include_once 'free_paragraphs_two_column_of_text_paragraph_type.features.inc';
