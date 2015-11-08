@@ -9,6 +9,6 @@
  * Implements hook_install().
  */
 function free_paragraphs_theme_settings_install() {
-  $theme_list = array('bootstrap', 'bootstrap_free_paragraphs');
+  $theme_list = array('bootstrap', 'bootstrap_free_paragraphs', 'adminimal_theme');
   theme_enable($theme_list);
 }

@@ -27,17 +27,18 @@ function free_paragraphs_two_column_of_text_paragraph_type_field_group_info() {
     ),
     'format_type' => 'div',
     'format_settings' => array(
-      'formatter' => 'open',
+      'label' => 'Left Column',
       'instance_settings' => array(
+        'required_fields' => 1,
+        'id' => '',
+        'classes' => '',
         'description' => '',
-        'show_label' => 1,
+        'show_label' => '0',
         'label_element' => 'h3',
         'effect' => 'none',
         'speed' => 'fast',
-        'classes' => '',
-        'required_fields' => 1,
-        'id' => '',
       ),
+      'formatter' => 'open',
     ),
   );
   $export['group_column_left|paragraphs_item|two_column_text|form'] = $field_group;
@@ -59,17 +60,18 @@ function free_paragraphs_two_column_of_text_paragraph_type_field_group_info() {
     ),
     'format_type' => 'div',
     'format_settings' => array(
-      'formatter' => 'open',
+      'label' => 'Right Column',
       'instance_settings' => array(
+        'required_fields' => 1,
+        'id' => '',
+        'classes' => 'group-column-right field-group-div',
         'description' => '',
-        'show_label' => 1,
+        'show_label' => '0',
         'label_element' => 'h3',
         'effect' => 'none',
         'speed' => 'fast',
-        'classes' => 'group-column-right field-group-div',
-        'required_fields' => 1,
-        'id' => '',
       ),
+      'formatter' => 'open',
     ),
   );
   $export['group_column_right|paragraphs_item|two_column_text|form'] = $field_group;

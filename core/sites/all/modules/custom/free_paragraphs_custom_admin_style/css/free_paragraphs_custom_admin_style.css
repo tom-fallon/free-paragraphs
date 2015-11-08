@@ -1,0 +1,10 @@
+.field-name-field-left-column-of-text {
+    float:left;
+    width:49%;
+    margin-right: 2%;
+}
+
+.field-name-field-right-column-of-text {
+    float:left;
+    width:49%;
+}

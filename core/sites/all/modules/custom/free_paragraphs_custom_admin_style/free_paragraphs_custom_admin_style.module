@@ -1,0 +1,8 @@
+<?php
+
+function free_paragraphs_custom_admin_style_preprocess_html(&$variables) {
+  // Adding Custom Style Sheet To Admin Pages.
+  if ($variables['is_admin'] == TRUE) {
+    drupal_add_css(drupal_get_path('module', 'free_paragraphs_custom_admin_style') . '/css/free_paragraphs_custom_admin_style.css', array('weight' => 999, 'group' => CSS_THEME));
+  }
+}
