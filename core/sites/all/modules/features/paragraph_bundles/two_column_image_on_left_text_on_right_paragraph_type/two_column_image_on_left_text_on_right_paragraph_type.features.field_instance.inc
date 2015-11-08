@@ -88,7 +88,7 @@ function two_column_image_on_left_text_on_right_paragraph_type_field_default_fie
     'label' => 'Right Column Of Text',
     'required' => 1,
     'settings' => array(
-      'text_processing' => 0,
+      'text_processing' => 1,
       'user_register_form' => FALSE,
     ),
     'widget' => array(

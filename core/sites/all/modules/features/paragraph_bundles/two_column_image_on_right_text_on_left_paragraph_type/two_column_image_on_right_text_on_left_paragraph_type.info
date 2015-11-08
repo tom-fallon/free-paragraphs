@@ -1,0 +1,13 @@
+name = Two Column Image on right Text On left Paragraph Type
+core = 7.x
+package = paragraph-bundles
+dependencies[] = features
+dependencies[] = image
+dependencies[] = paragraphs
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = field_left_column_of_text_imgr
+features[field_base][] = field_right_image_imgr
+features[field_instance][] = paragraphs_item-two_column_image_on_right-field_left_column_of_text_imgr
+features[field_instance][] = paragraphs_item-two_column_image_on_right-field_right_image_imgr
+features[paragraphs][] = two_column_image_on_right

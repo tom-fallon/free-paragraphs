@@ -1,0 +1,15 @@
+name = Hero Paragraph Type
+core = 7.x
+package = paragraph-bundles
+dependencies[] = ctools
+dependencies[] = ds
+dependencies[] = features
+dependencies[] = image
+dependencies[] = paragraphs
+features[ctools][] = ds:ds:1
+features[ds_layout_settings][] = paragraphs_item|two_column_image_on_right|default
+features[features_api][] = api:2
+features[field_base][] = field_full_width_image
+features[field_instance][] = paragraphs_item-full_width_image-field_full_width_image
+features[image][] = hero_image
+features[paragraphs][] = full_width_image

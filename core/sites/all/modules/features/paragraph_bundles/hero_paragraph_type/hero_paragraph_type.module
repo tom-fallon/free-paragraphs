@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Hero Paragraph Type feature.
+ */
+
+include_once 'hero_paragraph_type.features.inc';

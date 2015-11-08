@@ -4,17 +4,17 @@ module.exports = function(grunt) {
 	grunt.initConfig({
 		watch: {
 			less: {
-				files: ['less/*.less'],
-				tasks: ['less:development'],
-			},
+				files: ['less/*.less', 'less/*/*.less'],
+				tasks: ['less:development']
+			}
 		},
 		less: {
 			development: {
 				files: {
 					'css/style.css': 'less/style.less'
 				}
-			},
-		},
+			}
+		}
 	});
 	grunt.registerTask('default', ['watch']);
 };

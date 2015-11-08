@@ -7333,3 +7333,19 @@ table .checkbox input[type="checkbox"] {
 .alert-danger a {
   color: #843534;
 }
+.ds-2col-fluid .group-left {
+  padding-right: 1em;
+}
+.ds-2col-fluid .group-right {
+  padding-left: 1em;
+}
+.entity-paragraphs-item {
+  border-top: #d3d3d3 1px solid;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-top: 1em;
+}
+.paragraphs-item-full-width-image img {
+  width: 100%;
+  height: auto;
+}

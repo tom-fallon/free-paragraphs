@@ -1,17 +1,36 @@
-.field-name-field-left-column-of-text {
+.adminimal-theme .field-name-field-left-column-of-text {
     margin-right: 2%;
 }
 
-.field-name-field-right-column-of-text, .field-name-field-left-column-of-text {
+.adminimal-theme .field-name-field-right-column-of-text, .adminimal-theme .field-name-field-left-column-of-text {
     float:left;
     width:49%;
 }
 
-.field-name-field-left-image-imgl {
+.adminimal-theme .field-name-field-left-image-imgl {
     margin-right: 2%;
 }
 
-.field-name-field-right-column-of-text-imgl, .field-name-field-left-image-imgl {
+.adminimal-theme .field-name-field-right-column-of-text-imgl, .adminimal-theme .field-name-field-left-image-imgl {
+    float:left;
+    width: 49%;
+}
+
+.adminimal-theme .field-name-field-left-image-imgl {
+    margin-right: 2%;
+}
+
+.adminimal-theme .field-name-field-right-column-of-text-imgl, .adminimal-theme .field-name-field-left-image-imgl {
+    float:left;
+    width: 49%;
+}
+
+
+.adminimal-theme .field-name-field-left-column-of-text-imgr {
+    margin-right: 2%;
+}
+
+.adminimal-theme .field-name-field-left-column-of-text-imgr, .adminimal-theme .field-name-field-right-image-imgr {
     float:left;
     width: 49%;
 }
