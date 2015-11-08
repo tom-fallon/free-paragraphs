@@ -1,0 +1,6 @@
+name = Master Module
+description = Modules site needs to have to run
+core = 7.x
+package = Site Settings
+dependencies[] = features
+features[features_api][] = api:2
