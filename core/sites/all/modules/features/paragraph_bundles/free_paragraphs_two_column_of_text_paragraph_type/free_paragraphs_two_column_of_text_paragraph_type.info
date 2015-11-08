@@ -1,6 +1,7 @@
 name = Two Column Of Text Paragraph Type
 core = 7.x
 package = paragraph-bundles
+dependencies[] = ctools
 dependencies[] = features
 dependencies[] = field_group
 dependencies[] = paragraphs
@@ -14,4 +15,3 @@ features[field_group][] = group_column_right|paragraphs_item|two_column_text|for
 features[field_instance][] = paragraphs_item-two_column_text-field_left_column_of_text
 features[field_instance][] = paragraphs_item-two_column_text-field_right_column_of_text
 features[paragraphs][] = two_column_text
-features_exclude[dependencies][ctools] = ctools

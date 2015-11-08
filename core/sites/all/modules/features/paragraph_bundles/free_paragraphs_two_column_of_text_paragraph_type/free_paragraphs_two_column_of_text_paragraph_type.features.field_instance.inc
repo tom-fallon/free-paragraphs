@@ -19,7 +19,7 @@ function free_paragraphs_two_column_of_text_paragraph_type_field_default_field_i
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
@@ -60,7 +60,7 @@ function free_paragraphs_two_column_of_text_paragraph_type_field_default_field_i
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
