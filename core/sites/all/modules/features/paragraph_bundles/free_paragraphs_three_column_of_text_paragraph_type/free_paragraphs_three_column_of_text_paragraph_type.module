@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Three Column Of Text Paragraph Type feature.
+ */
+
+include_once 'free_paragraphs_three_column_of_text_paragraph_type.features.inc';

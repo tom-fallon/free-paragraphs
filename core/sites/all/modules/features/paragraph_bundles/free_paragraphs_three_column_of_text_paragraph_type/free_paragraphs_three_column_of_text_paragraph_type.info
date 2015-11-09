@@ -1,0 +1,14 @@
+name = Three Column Of Text Paragraph Type
+core = 7.x
+package = paragraph-bundles
+dependencies[] = features
+dependencies[] = paragraphs
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = field_column_one_text
+features[field_base][] = field_column_three_text
+features[field_base][] = field_column_two_text
+features[field_instance][] = paragraphs_item-three_col_paragraph-field_column_one_text
+features[field_instance][] = paragraphs_item-three_col_paragraph-field_column_three_text
+features[field_instance][] = paragraphs_item-three_col_paragraph-field_column_two_text
+features[paragraphs][] = three_col_paragraph

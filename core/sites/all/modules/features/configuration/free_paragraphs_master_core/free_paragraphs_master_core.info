@@ -6,6 +6,7 @@ dependencies[] = features
 dependencies[] = free_paragraphs_basic_page_bundle
 dependencies[] = free_paragraphs_one_column_of_text_paragraph_type
 dependencies[] = free_paragraphs_theme_settings
+dependencies[] = free_paragraphs_three_column_of_text_paragraph_type
 dependencies[] = free_paragraphs_two_column_of_text_paragraph_type
 dependencies[] = free_paragraphs_ux_improvement_modules
 dependencies[] = hero_paragraph_type
